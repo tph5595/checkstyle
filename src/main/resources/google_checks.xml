@@ -32,6 +32,9 @@
         <module name="MethodLength">
             <property name="max" value="15"/>
         </module>
+        <module name="CyclomaticComplexity">
+            <property name="max" value="5"/>
+        </module>
         <!-- Back to Google -->
         <module name="OuterTypeFilename"/>
         <module name="IllegalTokenText">
