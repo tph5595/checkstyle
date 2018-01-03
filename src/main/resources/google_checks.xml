@@ -35,6 +35,10 @@
         <module name="CyclomaticComplexity">
             <property name="max" value="5"/>
         </module>
+        <module name="ParameterNumber">
+            <property name="max" value="4"/>
+            <property name="ignoreOverriddenMethods" value="false"/>
+        </module>
         <!-- Back to Google -->
         <module name="OuterTypeFilename"/>
         <module name="IllegalTokenText">
